@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo Práctico</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Ejemplo Práctico</h1>
+
+    <div>
+        <h2>Control de flujo y manejo de errores</h2>
+        <h3>if...else</h3>
+        <button onclick="verificarNumero()">Comprobar número</button>
+        <input type="text" id="numeroIngresado" placeholder="Ingrese un número">
+        <p id="resultado"></p>
+
+        <h3>switch</h3>
+        <button onclick="mostrarValor()">Verificar Valor</button>
+        <input type="number" id="numero" placeholder="Ingrese un número del 1 al 5">
+        <p id="resultadoSwitch"></p>
+
+        <h3>try/catch/throw</h3>
+        <button onclick="verificarNumeroTry()">Verificar Número</button>
+        <input type="number" id="numeroIngresadoTry" placeholder="Ingrese un número">
+        <p id="resultadoTryCatch"></p>
+
+        <h3>Objetos de error</h3>
+        <button onclick="realizarDivision()">Realizar División</button>
+        <input type="number" id="numeroA" placeholder="Ingrese el dividendo">
+        <input type="number" id="numeroB" placeholder="Ingrese el divisor">
+        <p id="resultadoObjetoError"></p>
+    </div>
+
+    <div>
+        <h2>Bucles e iteración</h2>
+
+        <h3>for</h3>
+        <button onclick="printNumbers()">Imprimir números</button>
+        <input type="text" id="startInput" placeholder="Numero inicial">
+        <input type="text" id="endInput" placeholder="Numero final">
+        <p id="numbers"></p>
+
+        <h3>while</h3>
+        <button onclick="sumarNumeros()">Calcular Suma</button>
+        <input type="number" id="numeroIngresadoWhile" placeholder="Ingrese un número">
+        <p id="resultadoWhile"></p>
+        
+        <h3>do...while</h3>
+        <button onclick="verificarNumero()">Verificar Número</button>
+        <input type="number" id="numeroIngresadoDoWhile" placeholder="Ingrese un número mayor que 10">
+        <p id="resultadoDoWhile"></p>
+    </div>
+
+    <div>
+        <h2>Funciones</h2>
+        <button onclick="saludar()">Saludar</button>
+        <input type="text" id="nameInput" placeholder="Ingrese su nombre">
+        <p id="greeting"></p>
+    </div>
+
+    <div>
+        <h2>Expresiones y operadores</h2>
+        <button onclick="calculate()">Calcular</button>
+        <input type="text" id="num1Input" placeholder="Número 1">
+        <input type="text" id="num2Input" placeholder="Número 2">
+        <p id="calculation"></p>
+    </div>
+
+    <div>
+        <h2>Números y fechas</h2>
+        <button onclick="generateRandomNumber()">Generar número aleatorio</button>
+        <p id="randomNumber"></p>
+
+        <button onclick="getCurrentDate()">Obtener fecha actual</button>
+        <p id="currentDate"></p>
+    </div>
+
+    <div>
+        <h2>Formateo de texto</h2>
+        <button onclick="concatenateStrings()">Concatenar cadenas</button>
+        <input type="text" id="string1Input" placeholder="Cadena 1">
+        <input type="text" id="string2Input" placeholder="Cadena 2">
+        <p id="concatenatedString"></p>
+    </div>
+
+    <div>
+        <h2>Colecciones indexadas</h2>
+        <button onclick="manipulateArray()">Manipular arreglo</button>
+        <p id="array"></p>
+    </div>
+
+    <div>
+        <h2>DOM</h2>
+        <button onclick="getElementByID()">Encontrar elemento por ID</button>
+        <p id="elementByID"></p>
+
+        <button onclick="getElementsByTag()">Encontrar elementos por nombre de etiqueta</button>
+        <p id="elementsByTag"></p>
+
+        <button onclick="getElementsByClass()">Encontrar elementos por nombre de clase</button>
+        <p class="elementsByClass"></p>
+
+        <button onclick="getElementsBySelector()">Encontrar elementos por selectores CSS</button>
+        <p id="elementsBySelector"></p>
+
+        <button onclick="getElementsByCollection()">Encontrar elementos por colecciones de objetos HTML</button>
+        <p id="elementsByCollection"></p>
+    </div>
+
+</body>
+</html>
